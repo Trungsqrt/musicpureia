@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+   .control-bar {
+      @apply shadow-[0_8px_32px_0_rgba(_31,38,135,0.37_)] backdrop-blur-[_20px_];
+      background: rgba(255, 255, 255, 0.05);
+   }
+   .main-bar {
+      @apply shadow-[0_8px_32px_0_rgba(_31,38,135,0.37_)] backdrop-blur-[_4px_];
+      background: rgba(26, 26, 50, 0.95);
+   }
+   .menu-title {
+      color: #c1c1d9;
+      font-size: 10px;
+      font-weight: bold;
+   }
+
+   .menu-items-icon {
+      color: #dcdce7;
+      margin-right: 15px;
+   }
+
+   .menu-items-name {
+      color: #c1c1d9;
+      font-size: smaller;
+      font-weight: 400;
+   }
+
+   .nav--active {
+      color: #fa2a4e;
+   }
+   .nav--unactive {
+      color: #c1c1d9;
+   }
+   .item--hover {
+      background-color: #37384a;
+   }
+   .item--disable {
+      user-select: none;
+      filter: brightness(0.5);
+      pointer-events: none;
+   }
+}
