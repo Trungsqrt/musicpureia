@@ -15,7 +15,7 @@ const ICON_SIZE = "18px";
 
 function Menu() {
    return (
-      <div className="hidden lg:flex flex-col w-1/5 items-center justify-center border-r-[0.07rem] border-[#383952]">
+      <div className="hidden lg:flex flex-col w-1/6 items-center justify-center border-r-[0.07rem] border-[#383952]">
          {/* Begin: Playlist section of Menu bar */}
          <div className="w-full">
             <label className="menu-title px-10 ">LIBRARY</label>

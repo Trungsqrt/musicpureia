@@ -5,12 +5,23 @@
 @layer components {
    .control-bar {
       @apply shadow-[0_8px_32px_0_rgba(_31,38,135,0.37_)] backdrop-blur-[_20px_];
-      background: rgba(255, 255, 255, 0.05);
+      background: rgba(69, 66, 66, 0.09);
    }
    .main-bar {
       @apply shadow-[0_8px_32px_0_rgba(_31,38,135,0.37_)] backdrop-blur-[_4px_];
       background: rgba(26, 26, 50, 0.95);
    }
+
+   .text--weight-white {
+      color: white;
+      font-weight: 400;
+   }
+
+   .text--light-white {
+      color: rgb(235, 224, 224);
+      font-weight: 100;
+   }
+
    .menu-title {
       color: #c1c1d9;
       font-size: 10px;
@@ -41,5 +52,11 @@
       user-select: none;
       filter: brightness(0.5);
       pointer-events: none;
+   }
+   .multi-color {
+      background-image: linear-gradient(to right, #36bbde, #6542d2);
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
    }
 }

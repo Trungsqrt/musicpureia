@@ -1,6 +1,7 @@
-import React from "react";
+import { useState, useEffect } from "react";
 import Menu from "./Menu";
 import Content from "./Content";
+
 function Main() {
    return (
       <div className="h-[90%] w-full">
